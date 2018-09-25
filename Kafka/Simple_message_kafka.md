@@ -27,7 +27,7 @@ C:\tools\kafka_2.11-2.0.0>.\bin\windows\kafka-console-producer.bat --broker-list
 C:\tools\kafka_2.11-2.0.0>.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic firstjava --from-beginning
 ```
 
-## now see the messaging in consumer
+## now see the messaging in producer
 
 ```
 C:\tools\kafka_2.11-2.0.0>.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic firstjava 
